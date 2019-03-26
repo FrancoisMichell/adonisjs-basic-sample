@@ -1,6 +1,6 @@
 'use strict'
 
-class StoreUser {
+class CreateUser {
   get rules () {
     return {
       username: 'required|unique:users',
@@ -19,4 +19,4 @@ class StoreUser {
   }
 }
 
-module.exports = StoreUser
+module.exports = CreateUser

@@ -3,7 +3,7 @@
 const { formatters } = use('Validator')
 const Logger = use ('Logger')
 
-class StoreSession {
+class LoginUser {
   get formatter () {
     return formatters.JsonApi
   }
@@ -29,4 +29,4 @@ class StoreSession {
   }
 }
 
-module.exports = StoreSession
+module.exports = LoginUser
