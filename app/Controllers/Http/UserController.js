@@ -9,7 +9,7 @@ class UserController {
 
     return {success: true, token}
   }
-
+  
 }
 
 module.exports = UserController

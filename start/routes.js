@@ -16,7 +16,7 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.post('/users', 'UserController.create').validator('StoreUser')
-Route.post('/sessions', 'SessionController.create').validator('StoreSession')
+Route.post('/signup', 'UserController.create').validator('CreateUser')
+Route.post('/signin', 'SessionController.create').validator('LoginUser')
 
 // Route.resource('properties', 'PropertyController').apiOnly().middleware('auth')
